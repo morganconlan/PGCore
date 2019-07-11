@@ -1,0 +1,31 @@
+# carthage update --no-use-binaries --cache-builds --verbose --platform iOS
+
+# List Frameworks
+# ```ls Carthage/Build/iOS/ | grep '.framework$'```
+
+# Logging
+github "CocoaLumberjack/CocoaLumberjack"
+github "AFNetworking/AFNetworkActivityLogger"
+
+# Distribution
+# ~github "morganconlan/HockeySDK-iOS"~
+# Hockey app added manually.
+# 1. Built HockeySDK Framework Scheme
+# 2. Added to embeded binaries in General tab of project
+
+# Network
+github "AFNetworking/AFNetworking"
+github "AFNetworking/AFOAuth2Manager"
+
+# Persistence
+github "MagicalPanda/MagicalRecord"
+
+# Layout
+github "cloudkite/Masonry"
+
+# Converting
+github "morganconlan/Slash"
+github "morganconlan/PGToast"
+github "morganconlan/PGAlertView"
+github "morganconlan/PGViewDeck"
+github "morganconlan/PGDrillDownController"

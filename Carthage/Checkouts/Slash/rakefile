@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+task :test_ios => [] do
+    sdks = ['iphonesimulator']
+
+    sdks.each do |sdk|
+          fail unless system("xcodebuild", "-workspace", "Slash.xcworkspace", '-scheme', 'Slash-iOS', '-sdk', sdk, '-configuration', 'Release', 'test', '-destination', "platform=iOS Simulator,name=iPhone 6")
+    end
+end
+
+task :test_mac => [] do
+    sdks = ['macosx']
+
+    sdks.each do |sdk|
+        fail unless system("xcodebuild", "-workspace", "Slash.xcworkspace", '-scheme', 'Slash-OSX', '-sdk', sdk, '-configuration', 'Release', 'test', '-destination', "platform=OS X")
+    end
+end
+
+task :default => [:test_mac, :test_ios]

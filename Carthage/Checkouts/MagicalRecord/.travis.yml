@@ -1,0 +1,119 @@
+language: objective-c
+xcode_project: MagicalRecord.xcodeproj
+matrix:
+  include:
+    - osx_image: xcode10.2
+      xcode_scheme: MagicalRecord for iOS
+      xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xʀ
+      env: DEVICE="iPhone Xʀ (12.2)"
+    - osx_image: xcode10.2
+      xcode_scheme: libMagicalRecord for iOS
+      xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xʀ
+      env: DEVICE="iPhone Xʀ (12.2)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: MagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
+    #  env: DEVICE="iPhone X (11.4)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: libMagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
+    #  env: DEVICE="iPhone X (11.4)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: MagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=10.3.1,name=iPhone 7 Plus
+    #  env: DEVICE="iPhone 7 Plus (10.3.1)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: libMagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=10.3.1,name=iPhone 7 Plus
+    #  env: DEVICE="iPhone 7 Plus (10.3.1)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: MagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=9.3,name=iPhone 6s Plus
+    #  env: DEVICE="iPhone 6s Plus (9.3)"
+    #- osx_image: xcode10.2
+    #  xcode_scheme: libMagicalRecord for iOS
+    #  xcode_destination: platform=iOS Simulator,OS=9.3,name=iPhone 6s Plus
+    #  env: DEVICE="iPhone 6s Plus (9.3)"
+    - osx_image: xcode10.1
+      xcode_scheme: MagicalRecord for iOS
+      xcode_destination: platform=iOS Simulator,OS=8.1,name=iPhone 4s
+      env: DEVICE="iPhone 4s (8.1)"
+    - osx_image: xcode10.1
+      xcode_scheme: libMagicalRecord for iOS
+      xcode_destination: platform=iOS Simulator,OS=8.1,name=iPhone 4s
+      env: DEVICE="iPhone 4s (8.1)"
+    - osx_image: xcode10.2
+      xcode_scheme: MagicalRecord for OS X
+      xcode_destination: platform=macOS
+      env: DEVICE="OS X 10.14"
+    - osx_image: xcode10.2
+      xcode_scheme: libMagicalRecord for OS X
+      xcode_destination: platform=macOS
+      env: DEVICE="OS X 10.14"
+    #- osx_image: xcode9.4
+    #  xcode_scheme: MagicalRecord for OS X
+    #  xcode_destination: platform=macOS
+    #  env: DEVICE="OS X 10.13"
+    #- osx_image: xcode9.4
+    #  xcode_scheme: libMagicalRecord for OS X
+    #  xcode_destination: platform=macOS
+    #  env: DEVICE="OS X 10.13"
+    #- osx_image: xcode8.3
+    #  xcode_scheme: MagicalRecord for OS X
+    #  xcode_destination: platform=macOS
+    #  env: DEVICE="OS X 10.12"
+    #- osx_image: xcode8.3
+    #  xcode_scheme: libMagicalRecord for OS X
+    #  xcode_destination: platform=macOS
+    #  env: DEVICE="OS X 10.12"
+    - osx_image: xcode7.3
+      xcode_scheme: MagicalRecord for OS X
+      xcode_destination: platform=OS X
+      env: DEVICE="OS X 10.11"
+    - osx_image: xcode7.3
+      xcode_scheme: libMagicalRecord for OS X
+      xcode_destination: platform=OS X
+      env: DEVICE="OS X 10.11"
+    - osx_image: xcode10.2
+      xcode_scheme: MagicalRecord for tvOS
+      xcode_destination: platform=tvOS Simulator,OS=12.2,name=Apple TV 4K (at 1080p)
+      env: DEVICE="Apple TV 4K (at 1080p) (12.2)"
+    - osx_image: xcode10.2
+      xcode_scheme: libMagicalRecord for tvOS
+      xcode_destination: platform=tvOS Simulator,OS=12.2,name=Apple TV 4K (at 1080p)
+      env: DEVICE="Apple TV 4K (at 1080p) (12.2)"
+    # Xcode 7.3 gives "Platform 'appletvos' is not yet supported.", so we use Xcode 8.0 as minimal requirement
+    - osx_image: xcode8.0
+      xcode_scheme: MagicalRecord for tvOS
+      xcode_destination: platform=tvOS Simulator,OS=9.0,name=Apple TV 1080p
+      env: DEVICE="Apple TV 1080p (9.0)"
+    # Xcode 7.3 gives "Platform 'appletvos' is not yet supported.", so we use Xcode 8.0 as minimal requirement
+    - osx_image: xcode8.0
+      xcode_scheme: libMagicalRecord for tvOS
+      xcode_destination: platform=tvOS Simulator,OS=9.0,name=Apple TV 1080p
+      env: DEVICE="Apple TV 1080p (9.0)"
+
+env:
+  global:
+  - FRAMEWORK_NAME=MagicalRecord
+  - secure: WIm8vwQHOrBPCkWGmV0YMV+k92Dva6ORd0hfi96UzGRC/FTghzrelvLmTzr5kJXCeStv5ZxCNCUvJZm8q4J4y+6UdMQu5FPnx4+EKoogC4quJV8H1pXlXmoetITQdK7t2ldRH1EOuELdmpx2g5hydinu5Z5KMHb0vgLqtn9PvAc=
+# before_script:
+# - carthage bootstrap
+before_deploy:
+- carthage build --no-skip-current
+- carthage archive $FRAMEWORK_NAME
+deploy:
+  provider: script
+  script: ./Support/Scripts/push_podspec.sh
+  on:
+    repo: magicalpanda/MagicalRecord
+    tags: true
+deploy:
+  provider: releases
+  api_key:
+    secure: 1exCONwRvGbV+hi1N4n1VSbqJYpOaJW9zloj17Lxx14dQCyv7p2cSwB79A3RVOifJQg9pgC7eeyn4njKaIB9SZiDznhAiUlvFhNcuOdVrwmjqyxiYFByXNr4f0GVa7opIn9s/WDqGW8qQUQSOdoql5U9B/n5Mt86Jt5cws1BoYE=
+  file: "$FRAMEWORK_NAME.framework.zip"
+  skip_cleanup: true
+  on:
+    repo: magicalpanda/MagicalRecord
+    tags: true
