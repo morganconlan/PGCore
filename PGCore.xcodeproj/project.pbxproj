@@ -20,115 +20,115 @@
 		0186333D22D798900072946F /* PGCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0186333322D7988F0072946F /* PGCore.framework */; };
 		0186334222D798900072946F /* PGCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0186334122D798900072946F /* PGCoreTests.m */; };
 		0186334422D798900072946F /* PGCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186333622D798900072946F /* PGCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0186343522D79EAA0072946F /* PGApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336E22D799DC0072946F /* PGApp.h */; };
-		0186343622D79EAA0072946F /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340222D799F00072946F /* GTMNSString+HTML.h */; };
-		0186343722D79EAA0072946F /* NSDate+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340422D799F00072946F /* NSDate+Extras.h */; };
-		0186343822D79EAA0072946F /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340622D799F00072946F /* NSDate+Utilities.h */; };
-		0186343922D79EAA0072946F /* NSIndexPath+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340822D799F00072946F /* NSIndexPath+Expanded.h */; };
-		0186343A22D79EAA0072946F /* NSManagedObject+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340A22D799F00072946F /* NSManagedObject+Extras.h */; };
-		0186343B22D79EAA0072946F /* NSString+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340C22D799F00072946F /* NSString+Helpers.h */; };
-		0186343C22D79EAA0072946F /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340E22D799F10072946F /* NSString+HTML.h */; };
-		0186343D22D79EAA0072946F /* PGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341022D799F10072946F /* PGCategories.h */; };
-		0186343E22D79EAA0072946F /* UIImage+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341122D799F10072946F /* UIImage+Extras.h */; };
-		0186343F22D79EAA0072946F /* UIScrollView+InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341322D799F10072946F /* UIScrollView+InfiniteScroll.h */; };
-		0186344022D79EAA0072946F /* PGCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341622D799F30072946F /* PGCell.h */; };
-		0186344122D79EAA0072946F /* PGCellImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341822D799F30072946F /* PGCellImports.h */; };
-		0186344222D79EAA0072946F /* PGCellInfoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341922D799F30072946F /* PGCellInfoWrapper.h */; };
-		0186344322D79EAA0072946F /* PGCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341B22D799F40072946F /* PGCheckCell.h */; };
-		0186344422D79EAA0072946F /* PGCheckDeleteCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341D22D799F40072946F /* PGCheckDeleteCell.h */; };
-		0186344522D79EAA0072946F /* PGDeleteCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341F22D799F40072946F /* PGDeleteCell.h */; };
-		0186344622D79EAA0072946F /* PGEmailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342122D799F40072946F /* PGEmailCell.h */; };
-		0186344722D79EAB0072946F /* PGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342322D799F40072946F /* PGIconCell.h */; };
-		0186344822D79EAB0072946F /* PGMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342522D799F40072946F /* PGMenuCell.h */; };
-		0186344922D79EAB0072946F /* PGParagraphCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342722D799F40072946F /* PGParagraphCell.h */; };
-		0186344A22D79EAB0072946F /* PGPlainCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342922D799F40072946F /* PGPlainCell.h */; };
-		0186344B22D79EAB0072946F /* PGRemoteImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342B22D799F40072946F /* PGRemoteImageCell.h */; };
-		0186344C22D79EAB0072946F /* PGSectionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342D22D799F50072946F /* PGSectionWrapper.h */; };
-		0186344D22D79EAB0072946F /* PGSwipeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342F22D799F50072946F /* PGSwipeCell.h */; };
-		0186344E22D79EAB0072946F /* PGTelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186343122D799F50072946F /* PGTelCell.h */; };
-		0186344F22D79EAB0072946F /* PGWebCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186343322D799F50072946F /* PGWebCell.h */; };
-		0186345022D79EAB0072946F /* PGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E722D799EC0072946F /* PGConstants.h */; };
-		0186345122D79EAB0072946F /* PGCoreAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336522D799DB0072946F /* PGCoreAppDelegate.h */; };
-		0186345222D79EC30072946F /* PGBackgroundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335122D799D90072946F /* PGBackgroundManager.h */; };
-		0186345322D79EC30072946F /* PGColoursManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335322D799DA0072946F /* PGColoursManager.h */; };
-		0186345422D79EC40072946F /* PGConfigsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335522D799DA0072946F /* PGConfigsManager.h */; };
-		0186345522D79EC40072946F /* PGFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335722D799DA0072946F /* PGFontManager.h */; };
-		0186345622D79EC40072946F /* PGHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335922D799DA0072946F /* PGHUDManager.h */; };
-		0186345722D79EC40072946F /* PGMenuManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335B22D799DA0072946F /* PGMenuManager.h */; };
-		0186345822D79EC40072946F /* PGModelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335D22D799DA0072946F /* PGModelManager.h */; };
-		0186345922D79EC40072946F /* PGNotificationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335F22D799DB0072946F /* PGNotificationsManager.h */; };
-		0186345A22D79EC40072946F /* PGStringsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336122D799DB0072946F /* PGStringsManager.h */; };
-		0186345B22D79EC50072946F /* PGUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336322D799DB0072946F /* PGUploadManager.h */; };
-		0186345C22D79F290072946F /* PGLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FD22D799EE0072946F /* PGLocationDelegate.h */; };
-		0186345D22D79F290072946F /* PGTBDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FE22D799EF0072946F /* PGTBDelegate.h */; };
-		0186345E22D79F290072946F /* PGVCDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FF22D799EF0072946F /* PGVCDelegate.h */; };
-		0186345F22D79F290072946F /* PGYoutubeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340022D799EF0072946F /* PGYoutubeDelegate.h */; };
-		0186346022D79F4E0072946F /* DebugFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336822D799DC0072946F /* DebugFrameView.h */; };
-		0186346122D79F4E0072946F /* UIView+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336A22D799DC0072946F /* UIView+Debug.h */; };
-		0186346222D79F4E0072946F /* PGLineNumberLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336C22D799DC0072946F /* PGLineNumberLogFormatter.h */; };
-		0186346322D79FED0072946F /* PGMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E922D799ED0072946F /* PGMenuController.h */; };
-		0186346422D79FED0072946F /* PGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633EB22D799ED0072946F /* PGNavigationController.h */; };
-		0186346522D79FED0072946F /* PGReorderTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633ED22D799ED0072946F /* PGReorderTableView.h */; };
-		0186346622D79FED0072946F /* PGSearchVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633EF22D799ED0072946F /* PGSearchVC.h */; };
-		0186346722D79FED0072946F /* PGTBVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F122D799ED0072946F /* PGTBVC.h */; };
-		0186346822D79FED0072946F /* PGVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F322D799ED0072946F /* PGVC.h */; };
-		0186346922D79FED0072946F /* PGVCCoreHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F522D799ED0072946F /* PGVCCoreHome.h */; };
-		0186346A22D79FED0072946F /* PGVCForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F722D799EE0072946F /* PGVCForm.h */; };
-		0186346B22D79FED0072946F /* PGVCImageViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F922D799EE0072946F /* PGVCImageViewer.h */; };
-		0186346C22D79FED0072946F /* PGVCImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FB22D799EE0072946F /* PGVCImports.h */; };
-		0186346D22D79FED0072946F /* PGColouredAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337122D799DE0072946F /* PGColouredAccessory.h */; };
-		0186346E22D79FED0072946F /* PGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337322D799DE0072946F /* PGNavigationBar.h */; };
-		0186346F22D79FED0072946F /* PGPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337522D799DE0072946F /* PGPlaceholder.h */; };
-		0186347022D79FEE0072946F /* PGSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337722D799DE0072946F /* PGSearchBar.h */; };
-		0186347122D79FEE0072946F /* PGSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337922D799DE0072946F /* PGSectionHeader.h */; };
-		0186347222D79FEE0072946F /* PGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337B22D799DE0072946F /* PGView.h */; };
-		0186347322D79FEE0072946F /* RemoteImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337D22D799DE0072946F /* RemoteImageView.h */; };
-		0186347422D79FEE0072946F /* BPAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338222D799E60072946F /* BPAppearance.h */; };
-		0186347522D79FEE0072946F /* BPFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338422D799E60072946F /* BPFormTextField.h */; };
-		0186347622D79FEE0072946F /* BPFormTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338622D799E60072946F /* BPFormTextView.h */; };
-		0186347722D79FEE0072946F /* BPFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338822D799E60072946F /* BPFormViewController.h */; };
-		0186347822D79FEE0072946F /* BPFormCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338C22D799E70072946F /* BPFormCell.h */; };
-		0186347922D79FEE0072946F /* BPFormCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338E22D799E70072946F /* BPFormCellProtocol.h */; };
-		0186347A22D79FEE0072946F /* BPFormInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338F22D799E70072946F /* BPFormInfoCell.h */; };
-		0186347B22D79FEE0072946F /* BPFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339222D799E70072946F /* BPFormButtonCell.h */; };
-		0186347C22D79FEE0072946F /* BPFormInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339522D799E70072946F /* BPFormInputCell.h */; };
-		0186347D22D79FEE0072946F /* BPFormInputTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339722D799E70072946F /* BPFormInputTextFieldCell.h */; };
-		0186347E22D79FEF0072946F /* BPFormInputTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339922D799E70072946F /* BPFormInputTextViewCell.h */; };
-		0186347F22D79FEF0072946F /* UITextField+BPForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339C22D799E70072946F /* UITextField+BPForms.h */; };
-		0186348022D79FEF0072946F /* UITextView+BPForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339E22D799E70072946F /* UITextView+BPForms.h */; };
-		0186348122D79FEF0072946F /* MMHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A222D799E80072946F /* MMHud.h */; };
-		0186348222D79FEF0072946F /* MMLinearProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A422D799E80072946F /* MMLinearProgressView.h */; };
-		0186348322D79FEF0072946F /* MMProgressHUD+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A622D799E80072946F /* MMProgressHUD+Animations.h */; };
-		0186348422D79FEF0072946F /* MMProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A922D799E80072946F /* MMProgressHUD.h */; };
-		0186348522D79FEF0072946F /* MMProgressHUDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AB22D799E80072946F /* MMProgressHUDCommon.h */; };
-		0186348622D79FEF0072946F /* MMProgressHUDOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AC22D799E80072946F /* MMProgressHUDOverlayView.h */; };
-		0186348722D79FEF0072946F /* MMProgressHUDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AE22D799E80072946F /* MMProgressHUDViewController.h */; };
-		0186348822D79FEF0072946F /* MMProgressHUDWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B022D799E80072946F /* MMProgressHUDWindow.h */; };
-		0186348922D79FEF0072946F /* MMProgressView-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B222D799E80072946F /* MMProgressView-Protocol.h */; };
-		0186348A22D79FEF0072946F /* MMRadialProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B322D799E80072946F /* MMRadialProgressView.h */; };
-		0186348B22D79FEF0072946F /* MMVectorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B522D799E90072946F /* MMVectorImage.h */; };
-		0186348C22D79FEF0072946F /* MTMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B822D799E90072946F /* MTMigration.h */; };
-		0186348D22D79FEF0072946F /* MTStringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BB22D799E90072946F /* MTStringAttributes.h */; };
-		0186348E22D79FF00072946F /* MTStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BD22D799E90072946F /* MTStringParser.h */; };
-		0186348F22D79FF00072946F /* PGVendorImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BF22D799E90072946F /* PGVendorImports.h */; };
-		0186349022D79FF00072946F /* UIERealTimeBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C122D799E90072946F /* UIERealTimeBlurView.h */; };
-		0186349122D79FF00072946F /* UIImage+BoxBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C322D799E90072946F /* UIImage+BoxBlur.h */; };
-		0186349222D79FF00072946F /* SBJson4.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C622D799E90072946F /* SBJson4.h */; };
-		0186349322D79FF00072946F /* SBJson4Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C722D799EA0072946F /* SBJson4Parser.h */; };
-		0186349422D79FF00072946F /* SBJson4StreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C922D799EA0072946F /* SBJson4StreamParser.h */; };
-		0186349522D79FF00072946F /* SBJson4StreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CB22D799EA0072946F /* SBJson4StreamParserState.h */; };
-		0186349622D79FF00072946F /* SBJson4StreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CD22D799EA0072946F /* SBJson4StreamTokeniser.h */; };
-		0186349722D79FF00072946F /* SBJson4StreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CF22D799EA0072946F /* SBJson4StreamWriter.h */; };
-		0186349822D79FF00072946F /* SBJson4StreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D122D799EA0072946F /* SBJson4StreamWriterState.h */; };
-		0186349922D79FF00072946F /* SBJson4Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D322D799EA0072946F /* SBJson4Writer.h */; };
-		0186349A22D79FF00072946F /* SCNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D822D799EA0072946F /* SCNetworkReachability.h */; };
-		0186349B22D79FF00072946F /* SCNetworkReachabilityDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DA22D799EA0072946F /* SCNetworkReachabilityDelegate.h */; };
-		0186349C22D79FF10072946F /* SCNetworkReachabilityFlagsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DB22D799EA0072946F /* SCNetworkReachabilityFlagsParser.h */; };
-		0186349D22D79FF10072946F /* SCNetworkReachabilityRefBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DD22D799EA0072946F /* SCNetworkReachabilityRefBuilder.h */; };
-		0186349E22D79FF10072946F /* SCNetworkReachabilityScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DF22D799EA0072946F /* SCNetworkReachabilityScheduler.h */; };
-		0186349F22D79FF10072946F /* SCNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E122D799EA0072946F /* SCNetworkStatus.h */; };
-		018634A022D79FF10072946F /* YIPopupTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E322D799EA0072946F /* YIPopupTextView.h */; };
-		018634A122D79FF10072946F /* YISSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E522D799EB0072946F /* YISSTextView.h */; };
+		0186343522D79EAA0072946F /* PGApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336E22D799DC0072946F /* PGApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343622D79EAA0072946F /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340222D799F00072946F /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343722D79EAA0072946F /* NSDate+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340422D799F00072946F /* NSDate+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343822D79EAA0072946F /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340622D799F00072946F /* NSDate+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343922D79EAA0072946F /* NSIndexPath+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340822D799F00072946F /* NSIndexPath+Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343A22D79EAA0072946F /* NSManagedObject+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340A22D799F00072946F /* NSManagedObject+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343B22D79EAA0072946F /* NSString+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340C22D799F00072946F /* NSString+Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343C22D79EAA0072946F /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340E22D799F10072946F /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343D22D79EAA0072946F /* PGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341022D799F10072946F /* PGCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343E22D79EAA0072946F /* UIImage+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341122D799F10072946F /* UIImage+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186343F22D79EAA0072946F /* UIScrollView+InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341322D799F10072946F /* UIScrollView+InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344022D79EAA0072946F /* PGCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341622D799F30072946F /* PGCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344122D79EAA0072946F /* PGCellImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341822D799F30072946F /* PGCellImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344222D79EAA0072946F /* PGCellInfoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341922D799F30072946F /* PGCellInfoWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344322D79EAA0072946F /* PGCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341B22D799F40072946F /* PGCheckCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344422D79EAA0072946F /* PGCheckDeleteCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341D22D799F40072946F /* PGCheckDeleteCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344522D79EAA0072946F /* PGDeleteCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186341F22D799F40072946F /* PGDeleteCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344622D79EAA0072946F /* PGEmailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342122D799F40072946F /* PGEmailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344722D79EAB0072946F /* PGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342322D799F40072946F /* PGIconCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344822D79EAB0072946F /* PGMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342522D799F40072946F /* PGMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344922D79EAB0072946F /* PGParagraphCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342722D799F40072946F /* PGParagraphCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344A22D79EAB0072946F /* PGPlainCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342922D799F40072946F /* PGPlainCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344B22D79EAB0072946F /* PGRemoteImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342B22D799F40072946F /* PGRemoteImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344C22D79EAB0072946F /* PGSectionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342D22D799F50072946F /* PGSectionWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344D22D79EAB0072946F /* PGSwipeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186342F22D799F50072946F /* PGSwipeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344E22D79EAB0072946F /* PGTelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186343122D799F50072946F /* PGTelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186344F22D79EAB0072946F /* PGWebCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186343322D799F50072946F /* PGWebCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345022D79EAB0072946F /* PGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E722D799EC0072946F /* PGConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345122D79EAB0072946F /* PGCoreAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336522D799DB0072946F /* PGCoreAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345222D79EC30072946F /* PGBackgroundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335122D799D90072946F /* PGBackgroundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345322D79EC30072946F /* PGColoursManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335322D799DA0072946F /* PGColoursManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345422D79EC40072946F /* PGConfigsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335522D799DA0072946F /* PGConfigsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345522D79EC40072946F /* PGFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335722D799DA0072946F /* PGFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345622D79EC40072946F /* PGHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335922D799DA0072946F /* PGHUDManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345722D79EC40072946F /* PGMenuManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335B22D799DA0072946F /* PGMenuManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345822D79EC40072946F /* PGModelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335D22D799DA0072946F /* PGModelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345922D79EC40072946F /* PGNotificationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186335F22D799DB0072946F /* PGNotificationsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345A22D79EC40072946F /* PGStringsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336122D799DB0072946F /* PGStringsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345B22D79EC50072946F /* PGUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336322D799DB0072946F /* PGUploadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345C22D79F290072946F /* PGLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FD22D799EE0072946F /* PGLocationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345D22D79F290072946F /* PGTBDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FE22D799EF0072946F /* PGTBDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345E22D79F290072946F /* PGVCDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FF22D799EF0072946F /* PGVCDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186345F22D79F290072946F /* PGYoutubeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186340022D799EF0072946F /* PGYoutubeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346022D79F4E0072946F /* DebugFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336822D799DC0072946F /* DebugFrameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346122D79F4E0072946F /* UIView+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336A22D799DC0072946F /* UIView+Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346222D79F4E0072946F /* PGLineNumberLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186336C22D799DC0072946F /* PGLineNumberLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346322D79FED0072946F /* PGMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E922D799ED0072946F /* PGMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346422D79FED0072946F /* PGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633EB22D799ED0072946F /* PGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346522D79FED0072946F /* PGReorderTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633ED22D799ED0072946F /* PGReorderTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346622D79FED0072946F /* PGSearchVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633EF22D799ED0072946F /* PGSearchVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346722D79FED0072946F /* PGTBVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F122D799ED0072946F /* PGTBVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346822D79FED0072946F /* PGVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F322D799ED0072946F /* PGVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346922D79FED0072946F /* PGVCCoreHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F522D799ED0072946F /* PGVCCoreHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346A22D79FED0072946F /* PGVCForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F722D799EE0072946F /* PGVCForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346B22D79FED0072946F /* PGVCImageViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633F922D799EE0072946F /* PGVCImageViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346C22D79FED0072946F /* PGVCImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633FB22D799EE0072946F /* PGVCImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346D22D79FED0072946F /* PGColouredAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337122D799DE0072946F /* PGColouredAccessory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346E22D79FED0072946F /* PGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337322D799DE0072946F /* PGNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186346F22D79FED0072946F /* PGPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337522D799DE0072946F /* PGPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347022D79FEE0072946F /* PGSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337722D799DE0072946F /* PGSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347122D79FEE0072946F /* PGSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337922D799DE0072946F /* PGSectionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347222D79FEE0072946F /* PGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337B22D799DE0072946F /* PGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347322D79FEE0072946F /* RemoteImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186337D22D799DE0072946F /* RemoteImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347422D79FEE0072946F /* BPAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338222D799E60072946F /* BPAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347522D79FEE0072946F /* BPFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338422D799E60072946F /* BPFormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347622D79FEE0072946F /* BPFormTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338622D799E60072946F /* BPFormTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347722D79FEE0072946F /* BPFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338822D799E60072946F /* BPFormViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347822D79FEE0072946F /* BPFormCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338C22D799E70072946F /* BPFormCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347922D79FEE0072946F /* BPFormCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338E22D799E70072946F /* BPFormCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347A22D79FEE0072946F /* BPFormInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186338F22D799E70072946F /* BPFormInfoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347B22D79FEE0072946F /* BPFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339222D799E70072946F /* BPFormButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347C22D79FEE0072946F /* BPFormInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339522D799E70072946F /* BPFormInputCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347D22D79FEE0072946F /* BPFormInputTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339722D799E70072946F /* BPFormInputTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347E22D79FEF0072946F /* BPFormInputTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339922D799E70072946F /* BPFormInputTextViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186347F22D79FEF0072946F /* UITextField+BPForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339C22D799E70072946F /* UITextField+BPForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348022D79FEF0072946F /* UITextView+BPForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 0186339E22D799E70072946F /* UITextView+BPForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348122D79FEF0072946F /* MMHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A222D799E80072946F /* MMHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348222D79FEF0072946F /* MMLinearProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A422D799E80072946F /* MMLinearProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348322D79FEF0072946F /* MMProgressHUD+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A622D799E80072946F /* MMProgressHUD+Animations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348422D79FEF0072946F /* MMProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633A922D799E80072946F /* MMProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348522D79FEF0072946F /* MMProgressHUDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AB22D799E80072946F /* MMProgressHUDCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348622D79FEF0072946F /* MMProgressHUDOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AC22D799E80072946F /* MMProgressHUDOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348722D79FEF0072946F /* MMProgressHUDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633AE22D799E80072946F /* MMProgressHUDViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348822D79FEF0072946F /* MMProgressHUDWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B022D799E80072946F /* MMProgressHUDWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348922D79FEF0072946F /* MMProgressView-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B222D799E80072946F /* MMProgressView-Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348A22D79FEF0072946F /* MMRadialProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B322D799E80072946F /* MMRadialProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348B22D79FEF0072946F /* MMVectorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B522D799E90072946F /* MMVectorImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348C22D79FEF0072946F /* MTMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633B822D799E90072946F /* MTMigration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348D22D79FEF0072946F /* MTStringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BB22D799E90072946F /* MTStringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348E22D79FF00072946F /* MTStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BD22D799E90072946F /* MTStringParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186348F22D79FF00072946F /* PGVendorImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633BF22D799E90072946F /* PGVendorImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349022D79FF00072946F /* UIERealTimeBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C122D799E90072946F /* UIERealTimeBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349122D79FF00072946F /* UIImage+BoxBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C322D799E90072946F /* UIImage+BoxBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349222D79FF00072946F /* SBJson4.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C622D799E90072946F /* SBJson4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349322D79FF00072946F /* SBJson4Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C722D799EA0072946F /* SBJson4Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349422D79FF00072946F /* SBJson4StreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633C922D799EA0072946F /* SBJson4StreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349522D79FF00072946F /* SBJson4StreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CB22D799EA0072946F /* SBJson4StreamParserState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349622D79FF00072946F /* SBJson4StreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CD22D799EA0072946F /* SBJson4StreamTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349722D79FF00072946F /* SBJson4StreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633CF22D799EA0072946F /* SBJson4StreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349822D79FF00072946F /* SBJson4StreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D122D799EA0072946F /* SBJson4StreamWriterState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349922D79FF00072946F /* SBJson4Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D322D799EA0072946F /* SBJson4Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349A22D79FF00072946F /* SCNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633D822D799EA0072946F /* SCNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349B22D79FF00072946F /* SCNetworkReachabilityDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DA22D799EA0072946F /* SCNetworkReachabilityDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349C22D79FF10072946F /* SCNetworkReachabilityFlagsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DB22D799EA0072946F /* SCNetworkReachabilityFlagsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349D22D79FF10072946F /* SCNetworkReachabilityRefBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DD22D799EA0072946F /* SCNetworkReachabilityRefBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349E22D79FF10072946F /* SCNetworkReachabilityScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633DF22D799EA0072946F /* SCNetworkReachabilityScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0186349F22D79FF10072946F /* SCNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E122D799EA0072946F /* SCNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018634A022D79FF10072946F /* YIPopupTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E322D799EA0072946F /* YIPopupTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018634A122D79FF10072946F /* YISSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018633E522D799EB0072946F /* YISSTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		018634A222D7A0F00072946F /* PGApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0186334E22D799D80072946F /* PGApp.m */; };
 		018634A322D7A0F00072946F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0186340322D799F00072946F /* GTMNSString+HTML.m */; };
 		018634A422D7A0F00072946F /* NSDate+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0186340522D799F00072946F /* NSDate+Extras.m */; };
@@ -887,6 +887,7 @@
 		0186340122D799F00072946F /* PGCategories */ = {
 			isa = PBXGroup;
 			children = (
+				0186341022D799F10072946F /* PGCategories.h */,
 				0186340222D799F00072946F /* GTMNSString+HTML.h */,
 				0186340322D799F00072946F /* GTMNSString+HTML.m */,
 				0186340422D799F00072946F /* NSDate+Extras.h */,
@@ -901,7 +902,6 @@
 				0186340D22D799F00072946F /* NSString+Helpers.m */,
 				0186340E22D799F10072946F /* NSString+HTML.h */,
 				0186340F22D799F10072946F /* NSString+HTML.m */,
-				0186341022D799F10072946F /* PGCategories.h */,
 				0186341122D799F10072946F /* UIImage+Extras.h */,
 				0186341222D799F10072946F /* UIImage+Extras.m */,
 				0186341322D799F10072946F /* UIScrollView+InfiniteScroll.h */,
@@ -965,6 +965,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0186345022D79EAB0072946F /* PGConstants.h in Headers */,
+				0186343D22D79EAA0072946F /* PGCategories.h in Headers */,
+				0186345122D79EAB0072946F /* PGCoreAppDelegate.h in Headers */,
 				0186334422D798900072946F /* PGCore.h in Headers */,
 				0186346322D79FED0072946F /* PGMenuController.h in Headers */,
 				0186346422D79FED0072946F /* PGNavigationController.h in Headers */,
@@ -1054,7 +1057,6 @@
 				0186343A22D79EAA0072946F /* NSManagedObject+Extras.h in Headers */,
 				0186343B22D79EAA0072946F /* NSString+Helpers.h in Headers */,
 				0186343C22D79EAA0072946F /* NSString+HTML.h in Headers */,
-				0186343D22D79EAA0072946F /* PGCategories.h in Headers */,
 				0186343E22D79EAA0072946F /* UIImage+Extras.h in Headers */,
 				0186343F22D79EAA0072946F /* UIScrollView+InfiniteScroll.h in Headers */,
 				0186344022D79EAA0072946F /* PGCell.h in Headers */,
@@ -1073,8 +1075,6 @@
 				0186344D22D79EAB0072946F /* PGSwipeCell.h in Headers */,
 				0186344E22D79EAB0072946F /* PGTelCell.h in Headers */,
 				0186344F22D79EAB0072946F /* PGWebCell.h in Headers */,
-				0186345022D79EAB0072946F /* PGConstants.h in Headers */,
-				0186345122D79EAB0072946F /* PGCoreAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
