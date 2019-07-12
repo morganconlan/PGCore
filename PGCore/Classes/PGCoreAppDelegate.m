@@ -14,7 +14,6 @@
 #import "PGNavigationController.h"
 #import "PGNavigationBar.h"
 #import "PGLineNumberLogFormatter.h"
-#import <HockeySDK/HockeySDK.h>
 
 @class PGMenuController;
 
@@ -48,7 +47,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSAssert(PGApp.app.configs.migrationVersion, @"App migration version must be set");
 
     [self setupAFNetworking];
-    [self setupHockeySDK];
+    [self setupAppCenterSDK];
     [self performMigrations];
     [self setupMR];
 
@@ -136,19 +135,9 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 }
 
-- (void)setupHockeySDK {
+- (void)setupAppCenterSDK {
     
-    if (PGApp.app.configs.hockeyAppId.length == 0) {
-        
-        DDLogWarn(@"HockeyAppId not set");
-        return;
-        
-    }
-    
-    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:PGApp.app.configs.hockeyAppId];
-    // Configure the SDK in here only!
-    [[BITHockeyManager sharedHockeyManager] startManager];
-//    [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation]; // This line is obsolete in the crash only build
+    NSAssert(NO, @"setupAppCenterSDK must be implemented by subclass");
     
 }
 

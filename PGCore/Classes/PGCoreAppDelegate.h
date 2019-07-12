@@ -24,7 +24,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
 - (void)setupLumberjack;
 - (void)setupAFNetworking;
-- (void)setupHockeySDK;
+- (void)setupAppCenterSDK;
 - (void)setupViewdeck;
 - (void)performMigrations;
 /**

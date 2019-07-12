@@ -7,12 +7,6 @@
 github "CocoaLumberjack/CocoaLumberjack"
 github "AFNetworking/AFNetworkActivityLogger"
 
-# Distribution
-# ~github "morganconlan/HockeySDK-iOS"~
-# Hockey app added manually.
-# 1. Built HockeySDK Framework Scheme
-# 2. Added to embeded binaries in General tab of project
-
 # Network
 github "AFNetworking/AFNetworking"
 github "AFNetworking/AFOAuth2Manager"
